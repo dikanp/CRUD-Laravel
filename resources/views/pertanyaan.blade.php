@@ -28,7 +28,7 @@
                       <td>{{$pertanyaan->isi}}</td>
                       <td>
                             <span>
-                                <a href="/jawaban/{{$pertanyaan->id}}" class="btn btn-primary btn-sm">
+                                <a href="{{asset('jawaban/'.$pertanyaan->id)}}" class="btn btn-primary btn-sm">
                                     <i class="fa fa-eye"></i>
                                 </a> &nbsp; 
                                 <a href="#" class="btn btn-warning btn-sm">

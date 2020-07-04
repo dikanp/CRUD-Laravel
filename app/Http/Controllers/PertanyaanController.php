@@ -9,7 +9,7 @@ class PertanyaanController extends Controller
 {
     public function index(){
         $pertanyaan = Pertanyaan::getAll();
-        dd($pertanyaan);
+        // dd($pertanyaan);
         // return view('pertanyaan', compact('pertanyaans'));
         return view('pertanyaan', ['pertanyaans' => $pertanyaan]);
     }

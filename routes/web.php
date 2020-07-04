@@ -15,3 +15,5 @@ Route::get('/pertanyaan', 'PertanyaanController@index');
 Route::get('/pertanyaan/create', 'PertanyaanController@create');
 Route::post('/pertanyaan', 'PertanyaanController@save');
 Route::get('/jawaban/{pertanyaan_id}', 'JawabanController@index');
+Route::get('/jawaban/create/{pertanyaan_id}', 'JawabanController@create');
+Route::post('/jawaban/{pertanyaan_id}', 'JawabanController@save');

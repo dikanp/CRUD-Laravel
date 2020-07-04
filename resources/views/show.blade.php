@@ -5,8 +5,11 @@
 <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Data Items</h3><br/>
-                <a href="jawaban/create" class="btn btn-primary">
+                <a href="{{asset('jawaban/create/'.$pertanyaan_id)}}" class="btn btn-primary">
                   Create New Jawaban
+                </a>
+                <a href="{{asset('pertanyaan')}}" class="btn btn-primary">
+                  Back
                 </a>
               </div>
               <!-- /.card-header -->
